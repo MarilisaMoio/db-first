@@ -1,0 +1,14 @@
+USED CARS
+Dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+id - int => SMALLINT - Primary Key (NOTNULL, UNIQUE, AUTO_INCREMENT)
+brand - str => VARCHAR(50) - NOTNULL
+model - str => VARCHAR(50) - NOTNULL
+first_registration - date => DATE - NOTNULL
+car_mileage - int => MEDIUMINT - NOTNULL
+gear - str => VARCHAR(10) - NOTNULL
+price - int => DECIMAL(8, 2) - NOTNULL
+description - str => TEXT - NULL
+crashed - int (per simulare booleano 1-0) => TINYINT - NULL
+single_owner - int (per simulare booleano 1-0) => TINYINT - NULL
+emission_standard - str => VARCHAR(6) - NULL
